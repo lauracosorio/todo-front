@@ -11,7 +11,7 @@ function EditarTodo(data) {
   const [vencimiento, setVencimiento] = useState(todo.vencimiento);
   const fecha = vencimiento.split("T", 5);
 
-  const urlBack = 'http://localhost:5000'
+  const urlBack = 'http://35.193.177.141:5000'
 
 
   //headers

@@ -11,7 +11,7 @@ function FormSignUp() {
   const [name, setName] = useState();
   const [password, setPassword] = useState();
 
-  const urlBack = 'http://localhost:5000'
+  const urlBack = 'http://35.193.177.141:5000/'
 
   const Registro = (e) => {
     e.preventDefault();

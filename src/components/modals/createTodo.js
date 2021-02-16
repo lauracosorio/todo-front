@@ -19,7 +19,7 @@ function CreateTodo() {
   const pass = getFromLocal("pass");
   const tokenKey = getFromLocal("token");
 
-  const urlBack = 'http://localhost:5000'
+  const urlBack = 'http://35.193.177.141:5000'
 
   const addTodo = () => {
     axios
